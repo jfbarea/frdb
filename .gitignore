@@ -1,0 +1,6 @@
+.DS_Store
+.tern-port
+node_modules
+npm-debug.log*
+localSettings.js
+log

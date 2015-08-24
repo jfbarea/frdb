@@ -1,0 +1,36 @@
+{
+	"name": "frdb",
+	"version": "0.0.1",
+	"dependencies": {
+		"restify": "^3.0.3",
+		"jwt-simple": "0.3.0",
+		"prototypes": "^0.4.0",
+		"readline": "^0.0.8",
+		"cron" : "^1.0.9",
+		"bunyan" : "^1.4.0",
+		"async" : "*",
+		"mongodb": "^2.0.35",
+		"mongoose" : "^4.0.6",
+		"request": "^2.58.0",
+		"stdio": "0.2.7",
+		"mimetype": "0.0.7",
+		"lwip": "0.0.7",
+		"image-size": "0.3.5"
+	},
+	"devDependencies": {
+		"jfs": "^0.2.6",
+		"mocha": "^2.2.5",
+		"winston": "^1.0.0",
+		"cli-color": "^1.0.0",
+		"supertest": "^1.0.1",
+		"lorem-ipsum": "^1.0.3",
+		"should": "^6.0.3"
+	},
+	"engines": {
+		"iojs": "2.2.1"
+	},
+	"scripts": {
+		"test": "mocha",
+		"start": "iojs cluster.js"
+	}
+}
